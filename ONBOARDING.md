@@ -34,36 +34,7 @@ Follow these steps to set up your development environment:
    cd your-repo
    ```
 
-2. **Install Dependencies**  
-   Make sure you have the required tools installed (e.g., Node.js, Python, Docker). Then, install project dependencies:
-   ```bash
-   npm install
-   # or for Python
-   pip install -r requirements.txt
-   ```
-
-3. **Environment Variables**  
-   Copy the `.env.example` file to `.env` and update the values as needed:
-   ```bash
-   cp .env.example .env
-   ```
-
-4. **Run the Application**  
-   Start the application locally:
-   ```bash
-   npm start
-   # or for Python
-   python app.py
-   ```
-
-5. **Run Tests**  
-   Ensure everything is working by running the test suite:
-   ```bash
-   npm test
-   # or for Python
-   pytest
-   ```
-
+2. **Add what you want to share**
 ---
 
 ## Branching and Workflow
@@ -88,41 +59,6 @@ We follow the **Gitflow Workflow**. Follow the guidelines: [GIT_FLOW.md](https:/
 
 4. **Merge the PR**  
    Once approved, your PR will be merged by a maintainer.
-
----
-
-## Code Style and Guidelines
-
-To maintain consistency, follow these guidelines:
-
-- **Code Style**: Use [Prettier](https://prettier.io/) or [Black](https://black.readthedocs.io/) for formatting.
-- **Linting**: Run the linter before committing:
-  ```bash
-  npm run lint
-  # or for Python
-  flake8
-  ```
-- **Documentation**: Update documentation for any new features or changes.
-
----
-
-## Testing
-
-All contributions must include tests. Here's how to write and run tests:
-
-1. **Write Tests**  
-   Add unit tests for your changes in the appropriate test files.
-
-2. **Run Tests Locally**  
-   Ensure all tests pass before submitting your PR:
-   ```bash
-   npm test
-   # or for Python
-   pytest
-   ```
-
-3. **Check Coverage**  
-   Verify that your changes maintain or improve test coverage.
 
 ---
 
