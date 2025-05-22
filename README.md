@@ -31,7 +31,7 @@ Welcome to the official SecureDevHub Prompt Vault! A curated collection of effec
  ┃ ┣ 📂 ISSUE_TEMPLATE/    # Templates for bug reports & feature requests
  ┃ ┣ 📜 PULL_REQUEST_TEMPLATE.md  # Standardized PR structure
  ┃ ┣ 📜 workflows/         # GitHub Actions for CI/CD
- ┣ 📂 src/                 # Source code directory
+ ┣ 📂 src/                 # Prompt files directory
  ┣ 📂 scripts/             # Utility scripts for automation
  ┗ 📂 config/              # Configuration files
 ```
